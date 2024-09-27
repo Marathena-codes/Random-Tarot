@@ -1,4 +1,24 @@
-*{
+body{
     background-color: darkslategrey;
+    padding-top: 45px;
+}
+h1{
+  text-align: center;
+    color: white;
+    font-family: Georgia, Sans-Serif;
     
 }
+#button{
+  display: block;
+  height: 45px;
+  width: 200px;
+  color: rgba(83, 135, 125, 0.75);
+  font-family: Courier New;
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto;
+  border: 5px transparent white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

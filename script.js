@@ -4,3 +4,17 @@ let tarot = ["10 of Pentacles: Dale a tu cuerpo alegria, Macarena",
     "Three of Pentacles: All we need is money(and love, ofc)", "The Hierophant: It's dangerous to go alone... Take this",
     "Ace of Wands: Road work ahead? I sure hope it does."];
 
+let button = document.getElementById("button");
+let luck = document.getElementById("ocult-paragraph");
+
+function cards(){
+    let call = Math.floor(Math.random() * tarot.length);
+    return tarot[cards];
+};
+
+function click(){
+    luck.innerHTML = cards;
+    button.onclick = click;
+};
+
+
