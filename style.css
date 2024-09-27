@@ -22,3 +22,13 @@ h1{
   cursor: pointer;
 }
 
+#cont{
+    width: fit-content;
+    margin: auto;
+}
+
+P{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
